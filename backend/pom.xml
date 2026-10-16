@@ -17,8 +17,8 @@
   <artifactId>smart-problem-reporter</artifactId>
   <version>1.0.0</version>
   <packaging>jar</packaging>
-  <name>Smart Problem Reporter</name>
-  <description>Smart Local Problem Reporter and Auto-Solution Suggestion System</description>
+  <name>Smart Village Issue Reporter &amp; Auto Routing System</name>
+  <description>Smart Village Issue Reporter and Auto Routing System</description>
 
   <properties>
     <java.version>17</java.version>

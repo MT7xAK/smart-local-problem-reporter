@@ -1,4 +1,4 @@
-# 🏛️ Smart Local Problem Reporter & Auto-Solution Suggestion System
+# 🏛️ Smart Village Issue Reporter & Auto Routing System
 
 A full-stack civic issue reporting platform where citizens submit local complaints and receive **instant rule-based suggestions**, while admins manage and resolve them through a dedicated dashboard.
 
@@ -158,4 +158,4 @@ mvn spring-boot:run
 
 ---
 
-*Built for the Smart Civic Reporting Project — 2026*
+*Built for the Smart Village Issue Reporter & Auto Routing System — 2026*

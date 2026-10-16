@@ -1,4 +1,4 @@
-# Contributing to Smart Local Problem Reporter
+# Contributing to Smart Village Issue Reporter & Auto Routing System
 
 Thank you for your interest in contributing to our open source civic technology project!
 

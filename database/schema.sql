@@ -1,5 +1,5 @@
 -- ============================================================
--- Smart Local Problem Reporter & Auto-Solution Suggestion System
+-- Smart Village Issue Reporter & Auto Routing System
 -- MySQL Database Schema — v1.0
 -- ============================================================
 

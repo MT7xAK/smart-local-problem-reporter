@@ -1,5 +1,5 @@
 -- ============================================================
--- Smart Problem Reporter — Seed Data
+-- Smart Village Issue Reporter & Auto Routing System — Seed Data
 -- Run AFTER schema.sql
 -- ============================================================
 

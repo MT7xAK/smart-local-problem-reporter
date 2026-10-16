@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sign In — CivicReport</title>
-  <meta name="description" content="Sign in or create a free CivicReport account to report local civic issues and track resolutions.">
+  <title>Sign In — Smart Village Issue Reporter &amp; Auto Routing System</title>
+  <meta name="description" content="Sign in or create a free account on the Smart Village Issue Reporter & Auto Routing System to report local village issues and track resolutions.">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -36,7 +36,7 @@
         </div>
       </div>
       <div class="auth-left-img" style="margin-top:var(--sp-8);">
-        <img src="assets/hero.jpg" alt="CivicReport platform" style="border-radius:var(--r-xl);width:100%;box-shadow:var(--sh-xl);">
+        <img src="assets/hero.jpg" alt="Smart Village Issue Reporter & Auto Routing System" style="border-radius:var(--r-xl);width:100%;box-shadow:var(--sh-xl);">
       </div>
       <div style="margin-top:var(--sp-6);padding:var(--sp-4);background:hsla(0,0%,100%,.08);border-radius:var(--r-md);font-size:0.8rem;color:hsla(0,0%,100%,.65);line-height:1.6;">
         <strong style="color:hsla(0,0%,100%,.9);">🔒 Your data is protected</strong><br>
@@ -52,8 +52,8 @@
       <div class="auth-logo">
         <div class="auth-logo-icon">🏛️</div>
         <div>
-          <div class="auth-logo-text">CivicReport</div>
-          <div style="font-size:0.72rem;color:var(--c-text-3);">Smart Problem Reporter</div>
+          <div class="auth-logo-text">Smart Village Issue Reporter</div>
+          <div style="font-size:0.72rem;color:var(--c-text-3);">&amp; Auto Routing System</div>
         </div>
       </div>
 
@@ -84,7 +84,7 @@
           </label>
         </div>
         <button class="btn btn-primary w-full" id="login-submit" style="width:100%;margin-top:var(--sp-2);">Sign In</button>
-        <p style="font-size:0.78rem;color:var(--c-text-3);text-align:center;margin:0;">New to CivicReport? <a href="#register" onclick="switchTab('register')">Create a free account</a> to start reporting.</p>
+        <p style="font-size:0.78rem;color:var(--c-text-3);text-align:center;margin:0;">New to our platform? <a href="#register" onclick="switchTab('register')">Create a free account</a> to start reporting.</p>
       </div>
 
       <!-- REGISTER TAB -->
@@ -216,7 +216,7 @@
       setTimeout(() => {
         const result = Auth.register(name, email, password, phone, role);
         if (result.ok) {
-          App.toast('success', 'Account created!', `Welcome to CivicReport, ${name}!`);
+          App.toast('success', 'Account created!', `Welcome to Smart Village Issue Reporter, ${name}!`);
           setTimeout(() => {
             window.location.href = role === 'admin' ? 'admin.html' : 'dashboard.html';
           }, 800);
